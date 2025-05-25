@@ -16,16 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
-            </p>
-
-            <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              With hands-on experience in building responsive, visually engaging web interfaces using HTML, CSS, JavaScript, Bootstrap, and React.js. Proficient in translating Figma designs into clean, maintainable code, and collaborating effectively through Git for version control. Dedicated to crafting seamless user experiences through modern UI best practices, performance tuning, and pixel-perfect design implementation.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -68,21 +59,6 @@ export const AboutSection = () => {
                   <p className="text-muted-foreground">
                     Designing intuitive user interfaces and seamless user
                     experiences.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
                   </p>
                 </div>
               </div>
