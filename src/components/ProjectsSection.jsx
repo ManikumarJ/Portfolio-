@@ -3,10 +3,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "",
-    description: "CareerVista: AI-Powered Resume Analysis and Smart Job Recommendation System",
+    title: "CareerVista: AI-Powered Resume Analysis and Smart Job Recommendation System",
+    description: "AI-powered job recommendation system with smart resume analysis, real-time job scraping, ATS scoring, and personalized career path prediction.",
     image: "/projects/project1.png",
-    tags: ["Machine Learning"],
+    tags: [
+      "Gemini API",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Web Scraping"
+    ],  
+
     demoUrl: "#",
     githubUrl: "#",
   },
