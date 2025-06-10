@@ -26,16 +26,16 @@ const projects = [
 
     githubUrl: "https://github.com/ManikumarJ/-liver-disease-prediction.git",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
