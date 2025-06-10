@@ -1,8 +1,18 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
+   {
     id: 1,
+    title: "Liver Disease Prediction",
+    description:
+      "A machine learning-based web application that predicts whether a person has liver disease based on medical data, using a trained Random Forest model and deployed with a Flask backend and user-friendly interface.",
+    image: "/projects/project2.png",
+    tags: ["Python", "Flask", "Machine Learning", "Random Forest", "Pandas", "Scikit-learn", "Frontend"],
+
+    githubUrl: "https://github.com/ManikumarJ/-liver-disease-prediction.git",
+  },
+  {
+    id: 2,
     title: "CareerVista: AI-Powered Resume Analysis and Smart Job Recommendation System",
     description: "AI-powered job recommendation system with smart resume analysis, real-time job scraping, ATS scoring, and personalized career path prediction.",
     image: "/projects/project1.png",
@@ -16,16 +26,7 @@ const projects = [
     // demoUrl: "#",
     // githubUrl: "#",
   },
-  {
-    id: 2,
-    title: "Liver Disease Prediction",
-    description:
-      "A machine learning-based web application that predicts whether a person has liver disease based on medical data, using a trained Random Forest model and deployed with a Flask backend and user-friendly interface.",
-    image: "/projects/project2.png",
-    tags: ["Python", "Flask", "Machine Learning", "Random Forest", "Pandas", "Scikit-learn", "Frontend"],
-
-    githubUrl: "https://github.com/ManikumarJ/-liver-disease-prediction.git",
-  },
+ 
   // {
   //   id: 3,
   //   title: "E-commerce Platform",
