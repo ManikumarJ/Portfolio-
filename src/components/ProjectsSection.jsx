@@ -13,18 +13,18 @@ const projects = [
       "Web Scraping"
     ],  
 
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Liver Disease Prediction",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A machine learning-based web application that predicts whether a person has liver disease based on medical data, using a trained Random Forest model and deployed with a Flask backend and user-friendly interface.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "Flask", "Machine Learning", "Random Forest", "Pandas", "Scikit-learn", "Frontend"],
+
+    githubUrl: "https://github.com/ManikumarJ/-liver-disease-prediction.git",
   },
   {
     id: 3,
